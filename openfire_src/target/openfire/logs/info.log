@@ -1,0 +1,4 @@
+2013.10.26 18:16:55 org.jivesoftware.openfire.XMPPServer - Registering shutdown hook (standalone mode)
+2013.10.26 18:16:55 org.jivesoftware.openfire.XMPPServer - Openfire 3.8.2 [Oct 26, 2013 6:16:55 PM]
+2013.10.26 18:16:55 com.plaso.xmpp.groupchat.GroupServiceManager - Group Chat Socket is ready on port!12301
+2013.10.26 18:16:56 com.plaso.xmpp.groupchat.GroupServiceAction - memcache 初始化完成

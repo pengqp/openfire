@@ -1,0 +1,18 @@
+2013.10.26 18:16:56 org.jivesoftware.openfire.container.PluginManager - Error loading plugin: D:\openfire_src\openfire_src\target\openfire\plugins\admin
+java.lang.Error: Unresolved compilation problem: 
+
+	at org.jivesoftware.openfire.net.SSLConfig.getKeyStore(SSLConfig.java:282)
+	at org.jivesoftware.openfire.container.AdminConsolePlugin.startup(AdminConsolePlugin.java:138)
+	at org.jivesoftware.openfire.container.AdminConsolePlugin.initializePlugin(AdminConsolePlugin.java:216)
+	at org.jivesoftware.openfire.container.PluginManager.loadPlugin(PluginManager.java:483)
+	at org.jivesoftware.openfire.container.PluginManager.access$1(PluginManager.java:282)
+	at org.jivesoftware.openfire.container.PluginManager$PluginMonitor.run(PluginManager.java:1073)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(FutureTask.java:317)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:150)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:98)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:204)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:662)
